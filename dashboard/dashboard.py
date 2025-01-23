@@ -265,7 +265,7 @@ st.markdown(
 
 ## AREA HALAMAN
 now = datetime.datetime.now()
-st.write(f"Tanggal : {now.strftime('%Y-%m-%d)}")
+st.write(f"Tanggal : {now.strftime('%Y-%m-%d')}")
 
 st.title('ANALISIS DATA *BIKE SHARING*')
 st.write("Dataset Bike Sharing menjelaskan data historis penyewaan sepeda dari sistem Capital Bikeshare di Washington D.C., Amerika Serikat, selama dua tahun (2011 dan 2012). Dataset ini dibuat oleh Hadi Fanaee-T dari Laboratorium Kecerdasan Buatan dan Pendukung Keputusan (LIAAD), Universitas Porto.")
