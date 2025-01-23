@@ -1,9 +1,11 @@
 # Project-Data-Analysis Dicoding Collection Dashboard ✨
 ## Setup Environment - Anaconda
 ```
-conda create --name main-ds python=3.9
-conda activate main-ds
-pip install -r requirements.txt
+conda create --stev_proyek python 3.12.3
+conda activate stev_proyek
+cd C:\Users\Steven\dashboard
+pip install pipreqs
+pipreqs .
 ```
 
 ## Setup Environment - Shell/Terminal
