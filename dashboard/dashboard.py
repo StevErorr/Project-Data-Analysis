@@ -436,8 +436,8 @@ with st.sidebar:
     )
 
     st.write("Analisa data ini merupakan proses belajar dalam rangka pengerjaan proyek (Belajar Analisis Data dengan Python). " )
-    
-    st.markdown("<div class='footer'>@Copyright by Steven F H</div>", unsafe_allow_html=True)
+    st.caption('Copyright © Dicoding 2023')
+    # st.markdown("<div class='footer'>@Copyright by Steven F H</div>", unsafe_allow_html=True)
 
 # Menampilkan halaman berdasarkan pilihan
 if st.session_state.pilihan == "Pertanyaan 1": 
