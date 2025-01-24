@@ -32,7 +32,7 @@ except Exception as e:
     st.error(f"Terjadi kesalahan saat membaca file: {e}")
     st.stop()  
 
-
+# Menghapus DAY_ pada nama kolom kecuali untuk kolom DAY_dteday
 new_columns = {col: col.replace("DAY_", "") for col in df.columns if col.startswith("DAY_") and col != "DAY_dteday"}
 df = df.rename(columns=new_columns)
 
